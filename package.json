@@ -1,0 +1,23 @@
+{
+  "name": "api-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.6.1",
+    "apollo-server": "^3.10.2",
+    "dotenv": "^16.0.2",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.6.1"
+  }
+}
